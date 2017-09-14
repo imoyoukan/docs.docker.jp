@@ -334,7 +334,7 @@ Docker アカウントをお持ちでなければ、 `cloud.docker.com <https://
 
 .. The notation for associating a local image with a repository on a registry is username/repository:tag. The tag is optional, but recommended, since it is the mechanism that registries use to give Docker images a version. Give the repository and tag meaningful names for the context, such as get-started:part1. This will put the image in the get-started repository and tag it as part1.
 
-ローカルのイメージとレジストリ上にあるリポジトリとを関連付ける概念は、 ``ユーザ名/リポジトリ:タグ`` です。タグはオプションですが、指定が推奨されています。これは、レジストリにおける Docker イメージのバージョン指定の仕組みに使うためです。指定するのは ``get-started:part`` のように、レポジトリ名と意味のあるタグ名です。こちらはイメージを ``get-started`` リポジトリに、タグを ``part1`` として送信します。
+ローカルのイメージとレジストリ上にあるリポジトリとを関連付ける概念は、 ``ユーザ名/リポジトリ:タグ`` です。タグはオプションですが、指定が推奨されています。これは、レジストリにおける Docker イメージのバージョン指定の仕組みに使うためです。指定するのは ``get-started:part1`` のように、レポジトリ名と意味のあるタグ名です。こちらはイメージを ``get-started`` リポジトリに、タグを ``part1`` として送信します。
 
 .. Now, put it all together to tag the image. Run docker tag image with your username, repository, and tag names so that the image will upload to your desired destination. The syntax of the command is:
 
