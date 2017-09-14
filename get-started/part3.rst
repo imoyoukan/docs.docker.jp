@@ -88,7 +88,7 @@ Part 3では、アプリケーションをスケールアウトし、負荷分�
 
 .. Save this file as docker-compose.yml wherever you want. Be sure you have pushed the image you created in Part 2 to a registry, and update this .yml by replacing username/repo:tag with your image details.
 
-以下の内容を任意の場所に ``docker-commpose.yml`` として保存します。 :doc:`Part 2 <part2>` でレジストリに :ref:`送信したイメージ <share-your-image>` を確認し、 ``.yml``ファイルの ``username/repo:tag`` の部分を皆さんのイメージのものへ書き換えます。
+以下の内容を任意の場所に ``docker-commpose.yml`` として保存します。 :doc:`Part 2 <part2>` でレジストリに :ref:`送信したイメージ <share-your-image>` を確認し、 ``.yml`` ファイルの ``username/repo:tag`` の部分を皆さんのイメージのものへ書き換えます。
 
 .. code-block:: yamo
 
